@@ -23,7 +23,7 @@ feature_sets=(
 mkdir -p "$(dirname "$LOG")"
 > "$LOG"
 
-cd ~/ensense/src
+cd ~/ensense-mtp/src
 
 for i in "${!feature_sets[@]}"; do
     fs="${feature_sets[$i]}"
